@@ -1,0 +1,57 @@
+/*Estilos da página index.html*/
+.sintese{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#menu li {
+    display: inline;
+    padding: 18px;
+    text-decoration: none;
+
+}
+
+#menu li a {
+    text-decoration: none;  
+    color: #000;
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: #808080;
+}
+
+
+
+/*Estilos da pagina contato.html*/
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+
+
+/*Estilos da pagina origem.html*/
+.origem{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.origemfoto{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
