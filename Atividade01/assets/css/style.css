@@ -1,57 +1,54 @@
-/*Estilos da página index.html*/
-.sintese{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+/* Estilos da página index.html */
+.center {
     text-align: center;
 }
 
+.justify {
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
 
 #menu li {
     display: inline;
-    padding: 18px;
+    padding: 20px;
     text-decoration: none;
-
 }
 
-#menu li a {
-    text-decoration: none;  
+#menu li a{
+    text-decoration: none;
     color: #000;
     font-size: 20px;
 }
 
-#menu li a:hover {
+#menu li a:hover{
     color: #808080;
 }
 
+.p30 {
+    padding: 30px
+}
 
+.br50 {
+    border-radius: 50%;
+}
 
-/*Estilos da pagina contato.html*/
-.contato{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+.wh1 {
+    width: 500px;
+    height: 300px;
+}
 
+.wh2{
+    width: 400px;
+    height: 500px;
 }
 
 
+/* Estilos da página elementos.html */
 
-
-/*Estilos da pagina origem.html*/
-.origem{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    text-align: center;
-}
-
-.origemfoto{
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-
-}
-
+/* Estilos da página contato.html */
